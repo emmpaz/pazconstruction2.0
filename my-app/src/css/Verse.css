@@ -1,0 +1,20 @@
+@font-face {
+    font-family: "fontype-rounded";
+    src: url('../fonts/FontypeRounded-rgJJ7.ttf');
+}
+
+.VerseContainer{
+    border-style: solid;
+    font-family: fontype-rounded;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.Verse{
+    border-style: solid;
+    color: white;
+    font-size: 25px;
+    max-width: 1000px;
+    margin: 40px 10px 16px 10px;
+}
