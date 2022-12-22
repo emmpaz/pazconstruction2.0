@@ -5,6 +5,7 @@ import blueHeader from './pics/blue-overlay.png';
 import Header from './Header';
 import MainTitle from './MainTitle';
 import Verse from './Verse';
+import Gallery from './Gallery';
 
 class App extends Component{
   render(){
@@ -15,6 +16,8 @@ class App extends Component{
         <Header/>
         <MainTitle/>
         <Verse/>
+        <div className="SpaceBetweenVerseAndGallery"/>
+        <Gallery/>
       </div>
     </div>
   )
