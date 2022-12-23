@@ -11,14 +11,14 @@ class App extends Component{
   render(){
     return(
     <div className="App">
-      <div className="blueHeader">
-        <img className="img-header" src={blueHeader}/>
+        <div className="wrapper">
+          <img className="img-header" src={blueHeader}/>
+        </div>
         <Header/>
         <MainTitle/>
         <Verse/>
         <div className="SpaceBetweenVerseAndGallery"/>
         <Gallery/>
-      </div>
     </div>
   )
 }

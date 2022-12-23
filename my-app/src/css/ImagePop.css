@@ -1,0 +1,17 @@
+.ImagePopContainer{
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    min-height: 100vh;
+    height:max-content;
+    border-style: solid;
+    background-color: rgba(0, 0, 0, .7);
+    left: 0;
+    top: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.PopContainer{
+    width: 80%;
+}
