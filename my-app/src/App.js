@@ -18,7 +18,7 @@ class App extends Component{
         <MainTitle/>
         <Verse/>
         <div className="SpaceBetweenVerseAndGallery"/>
-        <Gallery/>
+        <Gallery/>      
     </div>
   )
 }
