@@ -8,14 +8,14 @@ class Location extends Component{
         return(
             <div className="LocationContainer">
                 <div className="LocationTitleContainer">
-                    <p>Location</p>
+                    <p ref={this.props.title}>Location</p>
                 </div>
                 <div className="LocationParagraphContainer">
                     <p>we do jobs all over kansas.</p>
                 </div>
                 <div className="LocationImageContainer">
                     <div className="OnlyImage">
-                       <img className="image" onClick={this.activatePopOut} src={kansas}></img>
+                       <img className="KansasImage" onClick={this.activatePopOut} src={kansas}></img>
                     </div>
                 </div>
             </div>

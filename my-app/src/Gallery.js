@@ -26,7 +26,7 @@ class Gallery extends Component{
         return(
             <div className="GalleryContainer">
                 <div className="GalleryTitleContainer">
-                    <p>Gallery</p>
+                    <p ref={this.props.title}>Gallery</p>
                 </div>
                 <div className="GalleryImageContainer">
                     <div className="OnlyImage">
