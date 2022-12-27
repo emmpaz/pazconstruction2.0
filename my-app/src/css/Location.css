@@ -1,0 +1,38 @@
+@font-face {
+    font-family: "fontype-rounded";
+    src: url('../fonts/FontypeRounded-rgJJ7.ttf');
+}
+
+.LocationContainer{
+    border-style: solid;
+    font-family: fontype-rounded;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.LocationTitleContainer{
+    border-style: solid;
+    width: fit-content;
+    font-size: 40px;
+}
+
+.LocationParagraphContainer{
+    border-style: solid;
+    width: fit-content;
+    font-size: 17px;
+}
+
+.LocationImageContainer{
+    border-style: solid;
+    width: fit-content;
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.OnlyImage{
+    width: 60%;
+    border-style: solid;
+}

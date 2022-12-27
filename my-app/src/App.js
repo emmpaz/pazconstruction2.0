@@ -6,6 +6,7 @@ import Header from './Header';
 import MainTitle from './MainTitle';
 import Verse from './Verse';
 import Gallery from './Gallery';
+import Location from './Location';
 
 class App extends Component{
   render(){
@@ -18,7 +19,9 @@ class App extends Component{
         <MainTitle/>
         <Verse/>
         <div className="SpaceBetweenVerseAndGallery"/>
-        <Gallery/>      
+        <Gallery/>
+        <div className="SpaceBetweenGalleryAndLocation"/>
+        <Location/>         
     </div>
   )
 }
