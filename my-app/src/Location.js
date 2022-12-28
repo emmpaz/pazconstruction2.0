@@ -14,7 +14,7 @@ class Location extends Component{
                     <p>we do jobs all over kansas.</p>
                 </div>
                 <div className="LocationImageContainer">
-                    <div className="OnlyImage">
+                    <div className="ImageContainer">
                        <img className="KansasImage" onClick={this.activatePopOut} src={kansas}></img>
                     </div>
                 </div>

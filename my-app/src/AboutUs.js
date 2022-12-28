@@ -1,4 +1,5 @@
 import { Component } from "react";
+import './css/AboutUs.css';
 
 class AboutUs extends Component{
 
@@ -7,12 +8,16 @@ class AboutUs extends Component{
     }
     render(){
         return(
-            <div className="LocationContainer">
-                <div className="LocationTitleContainer">
+            <div className="AboutUsContainer">
+                <div className="AboutUsTitleContainer">
                     <p ref={this.props.title}>About us</p>
                 </div>
-                <div className="LocationParagraphContainer">
-                    <p>we do jobs all over kansas.</p>
+                <div className="AboutUsParagraphContainer">
+                    <p>
+                        we are a construction company that does everything
+                        from roofing to a full remodel job. we communicate and
+                        listen to our customers till their needs are met.
+                    </p>
                 </div>
             </div>
         )
