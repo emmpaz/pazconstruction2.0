@@ -42,6 +42,8 @@
 .Header p{
     margin: 10px;
     border-style: solid;
+    font-family: fontype-rounded;
+    color: white;
 }
 
 .container {
@@ -59,6 +61,7 @@
 
 .change.bar1 {
     transform: translate(0, 9px) rotate(-45deg);
+    background-color: black;
 }
   
 .change.bar2 {
@@ -67,11 +70,60 @@
   
   .change.bar3 {
     transform: translate(0, -9px) rotate(45deg);
+    background-color: black;
 }
 
 .sideBar{
+    display: flex;
+    position: fixed;
+    flex-direction: column;
+    z-index: 1;
     width: 0px;
+    right: 0;
+    top: 0;
+    background-color: white;
+    height:100%;
+    transition-duration: .5s;
 }
+
+.sideContentContainer{
+    border-style: solid;
+    margin-top: 125px;
+    height: auto;
+}
+
+.sideBar p{
+   display: none;
+   margin: 30px;
+   font-size: 30px;
+   width: 0px;
+   transition-duration: .5s;
+   color: black;
+}
+
+.sideBarOn{
+    display: none;
+    position: fixed;
+    flex-direction: column;
+    z-index: 1;
+    width: 175px;
+    right: 0;
+    top: 0;
+    background-color: white;
+    height:100%;
+    transition-duration: .5s;
+}
+
+.sideBarOn p{
+    display:block;
+    transition-duration: .5s;
+    margin: 30px 10px 30px 15px;
+    font-size: 25px;
+    transition-duration: .5s;
+    cursor: pointer;
+    color: black;
+ }
+  
 
 @media screen and (width < 600px){
 
@@ -84,8 +136,17 @@
         margin-right: 10px;
         z-index: 2;
       }
+      .containerOn {
+        cursor: pointer;
+        display: inline-block;
+        border-style: solid;
+        position: fixed;
+        right: 0;
+        margin-right: 10px;
+        z-index: 2;
+      }
 
-      .sideBar{
+      .sideBarOn{
         display: flex;
         position: fixed;
         flex-direction: column;
@@ -93,12 +154,12 @@
         width: 175px;
         right: 0;
         top: 0;
-        background-color: red;
+        background-color: white;
         height:100%;
         transition-duration: .5s;
+        box-shadow: 0 10px 20px black;
     }
       
-
     .GalleryHeaderContainer{
         display: none;
         font-family: fontype-rounded;

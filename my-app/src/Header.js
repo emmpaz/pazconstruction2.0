@@ -17,6 +17,19 @@ class Header extends Component{
         }))
     }
 
+    handleResize = () => {
+        if (window.innerWidth > 600) {
+            this.setState(() => ({
+            menuBar : false
+        }))
+        }
+    }
+      
+      // create an event listener
+    componentDidMount(){
+        window.addEventListener("resize", this.handleResize)
+    }
+
     render(){
         return(
             <div className="Header">
@@ -31,16 +44,18 @@ class Header extends Component{
                     <p style={{cursor: 'pointer'}} onClick={this.props.locationClick}>location</p>
                     <p style={{cursor: 'pointer'}} onClick={this.props.aboutUsClick}>about us</p>
                 </div>
-                <div className="container" onClick={this.menuBarToggle}>
+                <div className={this.state.menuBar ? "containerOn" : "container"} onClick={this.menuBarToggle}>
                     <div className={this.state.menuBar ? "change bar1":"bar1"}></div>
                     <div className={this.state.menuBar ? "change bar2":"bar2"}></div>
                     <div className={this.state.menuBar ? "change bar3":"bar3"}></div>
                 </div>
-                <div className="sideBar">
-                    <p>Gallery</p>
-                    <p>Location</p>
-                    <p>About Us</p>
-                    <p>Contact</p>
+                <div className={this.state.menuBar ? "sideBarOn" : "sideBar"}>
+                    <div className="sideContentContainer">
+                        <p onClick={this.props.galleryClick}>Gallery</p>
+                        <p onClick={this.props.locationClick}>Location</p>
+                        <p onClick={this.props.aboutUsClick}>About Us</p>
+                        <p>Contact</p>
+                    </div>
                 </div>
             </div>
         )
