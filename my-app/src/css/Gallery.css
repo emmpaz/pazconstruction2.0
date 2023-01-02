@@ -4,7 +4,7 @@
 }
 
 .GalleryContainer{
-    border-style: solid;
+    
     font-family: fontype-rounded;
     display: flex;
     align-items: center;
@@ -12,13 +12,13 @@
 }
 
 .GalleryTitleContainer{
-    border-style: solid;
+    
     width: fit-content;
     font-size: 40px;
 }
 
 .GalleryImageContainer{
-    border-style: solid;
+    
     width: fit-content;
     margin-left: 50px;
     margin-right: 50px;
@@ -30,7 +30,7 @@
 .OnlyImage{
     margin-top: 20px;
     width: 70%;
-    border-style: solid;
+    
 }
 
 .image{
@@ -42,7 +42,7 @@
     width: 8%;
     height:auto;
     object-fit: contain;
-    border-style: solid;
+    
     max-width: 50px;
     cursor: pointer;
 }
@@ -51,7 +51,7 @@
     width: 8%;
     height:auto;
     object-fit: contain;
-    border-style: solid;
+    
     max-width: 50px;
     cursor: pointer;
     transform: rotate(180deg);

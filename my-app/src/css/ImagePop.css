@@ -6,7 +6,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    border-style: solid;
+    
     border-color: antiquewhite;
     background-color: rgba(0, 0, 0, .7);
     align-items:center;
@@ -16,12 +16,12 @@
 .PopContainer{
     display: flex;
     width: 90%;
-    border-style: solid;
+    
     align-items: flex-start;
 }
 
 .xContainer{
-    border-style: solid;
+    
     width: 10%;
 }
 
@@ -33,7 +33,7 @@
 .x{
     width: 10%;
     cursor: pointer;
-    border-style: solid;
+    
     height:auto;
     color: aliceblue;
 }

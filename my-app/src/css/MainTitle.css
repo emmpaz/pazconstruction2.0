@@ -4,7 +4,7 @@
 }
 
 .TitleContainer{
-    border-style: solid;
+    
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -13,14 +13,14 @@
 }
 
 .Title{
-    border-style: solid;
+    
     font-size: 45px;
     margin: 40px 10px 1px 10px;
     color: white;
 }
 
 .Subtext{
-    border-style: solid;
+    
     font-size: 18px;
     margin: 0px 10px 16px 10px;
     color: white;

@@ -4,7 +4,7 @@
 }
 
 .AboutUsContainer{
-    border-style: solid;
+    
     font-family: fontype-rounded;
     display: flex;
     align-items: center;
@@ -12,13 +12,13 @@
 }
 
 .AboutUsTitleContainer{
-    border-style: solid;
+    
     width: fit-content;
     font-size: 40px;
 }
 
 .AboutUsParagraphContainer{
-    border-style: solid;
+    
     width: fit-content;
     font-size: 17px;
 }
