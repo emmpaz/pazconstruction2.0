@@ -38,7 +38,7 @@ class Header extends Component{
                     <p style={{cursor: 'pointer'}} onClick={this.props.galleryClick}>gallery</p>
                 </div>
                 <div className="logo">
-                    <img className="img-logo" src={logo}></img>
+                    <img className="img-logo" alt='company logo'src={logo}></img>
                 </div>
                 <div className="LocationHeaderContainer">
                     <p style={{cursor: 'pointer'}} onClick={this.props.locationClick}>location</p>

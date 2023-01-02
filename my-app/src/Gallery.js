@@ -53,15 +53,15 @@ class Gallery extends Component{
                 </div>
                 <div className="GalleryImageContainer">
                         
-                    <img className="backArrow" src={arrow} onClick={this.carouselBack}></img>
+                    <img className="backArrow" alt='back arrow' src={arrow} onClick={this.carouselBack}></img>
                     <div className="OnlyImage">
-                        <img className="image" onClick={this.activatePopOut} src={this.imagesArray[this.state.index]}></img>
+                        <img className="image" alt='gallery shown'onClick={this.activatePopOut} src={this.imagesArray[this.state.index]}></img>
                     </div>
                     {
                         this.state.popOut ? <ImagePop image={this.imagesArray[this.state.index]} buttonClick={this.activatePopOut.bind(this)}/> : <></>
                     }
     
-                     <img className="forwardArrow" src={arrow} onClick={this.carouselForward}></img>
+                     <img className="forwardArrow" alt='forward arrow' src={arrow} onClick={this.carouselForward}></img>
                    
                 </div>
             </div>

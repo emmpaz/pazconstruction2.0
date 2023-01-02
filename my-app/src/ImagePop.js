@@ -1,6 +1,5 @@
 import { Component } from "react";
 import './css/ImagePop.css';
-import image from './images/broadway1.png';
 import x from './pics/x-button.png';
 
 class ImagePop extends Component{
@@ -10,8 +9,8 @@ class ImagePop extends Component{
         return(
             <div className="ImagePopContainer">
                 <div className="PopContainer">
-                     <img className="PoppedImage" src={this.props.image}></img>
-                     <img src={x} className= "x" onClick={this.props.buttonClick}></img>
+                     <img className="PoppedImage" alt='popped out' src={this.props.image}></img>
+                     <img src={x} className= "x" alt='leave'onClick={this.props.buttonClick}></img>
                 </div>
             </div>
         )
