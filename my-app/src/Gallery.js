@@ -49,7 +49,7 @@ class Gallery extends Component{
         return(
             <div className="GalleryContainer">
                 <div className="GalleryTitleContainer">
-                    <p ref={this.props.title}>Gallery</p>
+                    <p ref={this.props.title}>gallery</p>
                 </div>
                 <div className="GalleryImageContainer">
                         
