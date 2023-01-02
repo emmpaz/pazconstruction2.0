@@ -58,7 +58,7 @@ class Gallery extends Component{
                         <img className="image" onClick={this.activatePopOut} src={this.imagesArray[this.state.index]}></img>
                     </div>
                     {
-                        this.state.popOut ? <ImagePop buttonClick={this.activatePopOut.bind(this)}/> : <></>
+                        this.state.popOut ? <ImagePop image={this.imagesArray[this.state.index]} buttonClick={this.activatePopOut.bind(this)}/> : <></>
                     }
     
                      <img className="forwardArrow" src={arrow} onClick={this.carouselForward}></img>
