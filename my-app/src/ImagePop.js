@@ -10,7 +10,7 @@ class ImagePop extends Component{
             <div className="ImagePopContainer">
                 <div className="PopContainer">
                      <img className="PoppedImage" alt='popped out' src={this.props.image}></img>
-                     <img src={x} className= "x" alt='leave'onClick={this.props.buttonClick}></img>
+                     <p className= "x" alt='leave'onClick={this.props.buttonClick}>CLOSE</p>
                 </div>
             </div>
         )
