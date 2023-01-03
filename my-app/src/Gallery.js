@@ -5,7 +5,7 @@ import image1 from './images/broadway1.png';
 import image2 from './images/broadway2.png';
 import image3 from './images/bathroom.png';
 import image4 from './images/pool-deck.png';
-import arrow from './images/forward.png';
+import arrow from './pics/forward.svg';
 
 class Gallery extends Component{
     
@@ -49,7 +49,7 @@ class Gallery extends Component{
         return(
             <div className="GalleryContainer">
                 <div className="GalleryTitleContainer">
-                    <p ref={this.props.title}>gallery</p>
+                    <p ref={this.props.title}>Gallery</p>
                 </div>
                 <div className="GalleryImageContainer">
                         

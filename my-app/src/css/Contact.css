@@ -1,0 +1,47 @@
+@font-face {
+    font-family: "fontype-rounded";
+    src: url('../fonts/FontypeRounded-rgJJ7.ttf');
+}
+
+.ContactContainer{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-family: fontype-rounded;
+}
+
+
+.ContactTitleContainer{
+
+    width: fit-content;
+    font-size: 40px;
+}
+
+
+.iconContainer{
+    width: fit-content;
+}
+
+.facebook{
+    float: left;
+    width: 30%;
+    margin: 10px 0 20px 10px;
+    cursor: pointer;
+}
+
+.mail{
+    float: right;
+    width: 30%;
+    margin: 10px 10px 20px 0;
+    cursor: pointer;
+}
+
+.number{
+    font-size: 30px;
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+}

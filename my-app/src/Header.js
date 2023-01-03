@@ -54,7 +54,7 @@ class Header extends Component{
                         <p onClick={this.props.galleryClick}>Gallery</p>
                         <p onClick={this.props.locationClick}>Location</p>
                         <p onClick={this.props.aboutUsClick}>About Us</p>
-                        <p>Contact</p>
+                        <p onClick={this.props.contactClick}>Contact</p>
                     </div>
                 </div>
             </div>

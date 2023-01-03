@@ -3,9 +3,6 @@ import './css/AboutUs.css';
 
 class AboutUs extends Component{
 
-    constructor(props){
-        super(props)
-    }
     render(){
         return(
             <div className="AboutUsContainer">

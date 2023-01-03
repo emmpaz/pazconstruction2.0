@@ -34,7 +34,7 @@
 
 .ImageContainer{
     width: 60%;
-    
+    min-width: 350px;
 }
 
 .KansasImage{
