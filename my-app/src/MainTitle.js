@@ -7,7 +7,7 @@ class MainTitle extends Component{
         return(
             <div className="TitleContainer">
                 <p className="Title">Paz Construction & Drywall, Inc.</p>
-                <p className="Subtext">your roofing experts | licensed, bonded and insured</p>
+                <p className="Subtext">licensed, bonded and insured</p>
             </div>
         )
     }
